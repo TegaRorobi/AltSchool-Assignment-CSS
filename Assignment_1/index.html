@@ -4,7 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Otter Essay</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <style>
+        * {
+            font-family: 'Roboto', sans-serif;
+        }
         body {
             background-color: #111827;
             display: flex;
@@ -15,37 +21,40 @@
         }
         .container {
             position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             background-color: white;
-            padding: 24px;
+            padding: 24px 30px 24px 30px;
             border-radius: 8px;
-            text-align: center;
-            width: 33%;
+            width: 320px;
         }
         .header {
             position: absolute;
-            top: -14px;
-            left: 50%;
-            transform: translateX(-50%);
-            background-color: #EC4899;
+            top: -10%;
+            left: 30px;
+            right: 30px;
             color: black;
-            padding: 8px 16px;
+            background-color: #EC4899;
+            text-align: center;
+            padding: 15px 20px;
             border-radius: 8px;
         }
         .header h1 {
-            font-weight: bold;
-            font-size: 1.25rem;
+            font-size: 30px;
             margin: 0;
         }
         .content {
             color: black;
-            margin-top: 30px;
+            font-weight: 550;
+            margin-top: 25px;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="header">
-            <h1><b>Otter Essay</b></h1>
+            <h1><b>An Otter Essay</b></h1>
         </div>
         <div class="content">
             <p>Otters have long, slim bodies and relatively short limbs. Their most striking anatomical features are the powerful webbed feet used to swim, and their seal-like abilities holding breath underwater.</p>
