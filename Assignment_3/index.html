@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novus Watch</title>
+    <style>
+        *{
+            font-family: "Georgia";
+            margin:0;
+            padding:0;
+        }
+        body {
+            background-color: #a7a8cd;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            width: 100vw;
+        }
+        .main-card {
+            background-color: #ffffff;
+            box-sizing: border-box;
+            width: 40%;
+            position: relative;
+            border-radius: 20px;
+        }
+        .main-card img {
+            width: 100%;
+            height: 370px;
+            object-fit: cover;
+            border-radius: 15px 15px 0px 0px;
+        }
+        .floating-text {
+            background-color: #fdf1b5;
+            position: absolute;
+            padding: 8px 20px;
+            font-size: 20px;
+            font-weight: bolder;
+            border-radius: 10px 30px 30px 10px;
+            left:-15px;
+            top:10px;
+        }
+        .card-texts {
+            box-sizing: border-box;
+            width: 100%;
+            padding: 25px;
+            line-height: 25px;
+        }
+        .card-texts p {
+            font-size: 19px;
+        }
+        .heading {
+            margin-bottom: 20px;
+            display: flex;
+            align-items: end;
+            gap: 10px;
+        }
+        .heading h2{
+            color: #646464;
+        }
+        @media only screen and (max-width: 1280px){
+            .main-card{width: 60%;}
+        }
+        @media only screen and (max-width: 768px){
+            .main-card{width: 80%;}
+            .heading{
+                flex-direction: column;
+                align-items: start;
+            }
+        }
+        @media only screen and (max-width: 360px){
+            .main-card{width: 100%;}
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="main-card">
+            <div class="floating-text">
+                <p>New and improved!</p>
+            </div>
+
+            <img src="./novus-watch.jpg" alt="">
+            <div class="card-texts">
+                <div class="heading">
+                    <h1>Novus Watch</h1>
+                    <h2>Series TV</h3>
+                </div>
+                <p>The pinnacle of fashion and tech. This wearable piece is an homage to gilded palaces and minimal regalia, combining nouveau-deco and brutalism influences in a compact, Swiss-made watch.</p>
+            </div>
+        </div>
+        >
+    </div>
+</body>
+</html>
